@@ -42,8 +42,8 @@ STAGE_NAME = "Model Trainer Pipeline"
 
 try:
     logger.info(f"----------{STAGE_NAME} Started !!----------")
-    data_transformation = ModeltrainerPipeline()
-    data_transformation.main()
+    model_trainer = ModeltrainerPipeline()
+    model_trainer.main()
     logger.info(f"----------{STAGE_NAME} Ended !!----------")
 except Exception as e:
     logger.exception(e)

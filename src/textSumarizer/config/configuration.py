@@ -72,7 +72,6 @@ class ConfigurationManager:
             logging_steps = params.logging_steps,
             evaluation_strategy = params.evaluation_strategy,
             eval_steps = params.evaluation_strategy,
-            save_steps = params.save_steps,
             gradient_accumulation_steps = params.gradient_accumulation_steps
         )
 

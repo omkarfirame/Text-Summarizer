@@ -32,5 +32,4 @@ class ModelTrainerConfig:
     logging_steps: int
     evaluation_strategy: str
     eval_steps: int
-    save_steps: float
     gradient_accumulation_steps: int
