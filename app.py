@@ -26,5 +26,6 @@ def main():
         else:
             st.warning("Please enter some text to summarize.")
 
+
 if __name__ == "__main__":
     main()
