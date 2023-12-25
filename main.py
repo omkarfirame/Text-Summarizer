@@ -17,38 +17,38 @@ from textSumarizer.logging import logger
 #     logger.exception(e)
 #     raise e
 
-# STAGE_NAME = "Data Validation Pipeline"
+STAGE_NAME = "Data Validation Pipeline"
 
-# try:
-#     logger.info(f"----------{STAGE_NAME} Started !!----------")
-#     data_validation = DataValidationPipeline()
-#     data_validation.main()
-#     logger.info(f"----------{STAGE_NAME} Ended !!----------")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+try:
+    logger.info(f"----------{STAGE_NAME} Started !!----------")
+    data_validation = DataValidationPipeline()
+    data_validation.main()
+    logger.info(f"----------{STAGE_NAME} Ended !!----------")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
-# STAGE_NAME = "Data Transformation Pipeline"
+STAGE_NAME = "Data Transformation Pipeline"
 
-# try:
-#     logger.info(f"----------{STAGE_NAME} Started !!----------")
-#     data_transformation = DataTransformationPipeline()
-#     data_transformation.main()
-#     logger.info(f"----------{STAGE_NAME} Ended !!----------")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+try:
+    logger.info(f"----------{STAGE_NAME} Started !!----------")
+    data_transformation = DataTransformationPipeline()
+    data_transformation.main()
+    logger.info(f"----------{STAGE_NAME} Ended !!----------")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
-# STAGE_NAME = "Model Trainer Pipeline"
+STAGE_NAME = "Model Trainer Pipeline"
 
-# try:
-#     logger.info(f"----------{STAGE_NAME} Started !!----------")
-#     model_trainer = ModeltrainerPipeline()
-#     model_trainer.main()
-#     logger.info(f"----------{STAGE_NAME} Ended !!----------")
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+try:
+    logger.info(f"----------{STAGE_NAME} Started !!----------")
+    model_trainer = ModeltrainerPipeline()
+    model_trainer.main()
+    logger.info(f"----------{STAGE_NAME} Ended !!----------")
+except Exception as e:
+    logger.exception(e)
+    raise e
 
 
 STAGE_NAME = "Model Evaluation Pipeline"
